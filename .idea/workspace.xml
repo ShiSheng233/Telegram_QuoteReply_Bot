@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74b3e5b5-fcba-491c-aaa7-ec7b3b288341" name="变更" comment="Proj: Add requirements.txt for the script&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;&#10;#Co-Authored-by: XiaoMengXinX &lt;xibaole2333@gmail.com&gt;">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="74b3e5b5-fcba-491c-aaa7-ec7b3b288341" name="变更" comment="Proj: Add README.md&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;&#10;#Co-Authored-by: XiaoMengXinX &lt;xibaole2333@gmail.com&gt;">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,12 +109,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="0aa60434-fcef-4e4c-a76c-9257199ef424" name="变更" comment="" />
+      <changelist id="74b3e5b5-fcba-491c-aaa7-ec7b3b288341" name="变更" comment="Proj: Add README.md&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;&#10;#Co-Authored-by: XiaoMengXinX &lt;xibaole2333@gmail.com&gt;" />
       <created>1650634788801</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650634788801</updated>
       <workItem from="1650634792353" duration="9531000" />
+      <workItem from="1650648192412" duration="420000" />
     </task>
     <task id="LOCAL-00001" summary="Proj: add .gitignore file">
       <created>1650634887872</created>
@@ -171,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650647330732</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Proj: Add README.md&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;&#10;#Co-Authored-by: XiaoMengXinX &lt;xibaole2333@gmail.com&gt;">
+      <created>1650647439841</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1650647439841</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +207,8 @@
     <MESSAGE value="Main: Implement program logic" />
     <MESSAGE value="Main: Implement program logic&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;&#10;Co-Authored-by: XiaoMengXinX &lt;xibaole2333@gmail.com&gt;" />
     <MESSAGE value="Proj: Add requirements.txt for the script&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;&#10;#Co-Authored-by: XiaoMengXinX &lt;xibaole2333@gmail.com&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Proj: Add requirements.txt for the script&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;&#10;#Co-Authored-by: XiaoMengXinX &lt;xibaole2333@gmail.com&gt;" />
+    <MESSAGE value="Proj: Add README.md&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;&#10;#Co-Authored-by: XiaoMengXinX &lt;xibaole2333@gmail.com&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Proj: Add README.md&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;&#10;#Co-Authored-by: XiaoMengXinX &lt;xibaole2333@gmail.com&gt;" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="VgoProject">

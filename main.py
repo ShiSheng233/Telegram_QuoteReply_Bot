@@ -27,8 +27,8 @@ def command_help(update: telegram.Update, context: telegram.ext.CallbackContext)
 def reply_to_message(update: telegram.Update, context: telegram.ext.CallbackContext) -> None:
     user = update.effective_user
     logger.info(f'User {user.id} replied to a message at Chat {update.message.chat_id}')
-    update.message.reply_markdown_v2(
-        fr'`{user.full_name}` {update.message.text.replace("/", "")}了 `{update.message.reply_to_message.from_user.full_name}`'
+    update.message.reply_markdown(
+        fr'[{user.full_name}](tg://user?id={user.id})  {update.message.text.replace("/", "")}了  [{update.message.reply_to_message.from_user.full_name}](tg://user?id={update.message.reply_to_message.from_user.id})'
     )
 
 

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0aa60434-fcef-4e4c-a76c-9257199ef424" name="变更" comment="Main: add 2 commands">
+    <list default="true" id="74b3e5b5-fcba-491c-aaa7-ec7b3b288341" name="变更" comment="Main: Implement program logic&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;&#10;Co-Authored-by: XiaoMengXinX &lt;xibaole2333@gmail.com&gt;">
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Telegram_QuoteReply_Bot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Telegram_QuoteReply_Bot.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +25,7 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="SOFT" />
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="GoVcsConfiguration">
@@ -38,18 +40,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "go.import.settings.migrated": "true",
-    "last_opened_file_path": "E:/Developement/Project/Telegram_QuoteReply_Bot/main.py"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Developement/Project/Telegram_QuoteReply_Bot/main.py&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.main">
     <configuration name="Run main()" type="PythonConfigurationType" factoryName="Python" singleton="false">
       <module name="Telegram_QuoteReply_Bot" />
@@ -113,7 +115,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650634788801</updated>
-      <workItem from="1650634792353" duration="8483000" />
+      <workItem from="1650634792353" duration="9531000" />
     </task>
     <task id="LOCAL-00001" summary="Proj: add .gitignore file">
       <created>1650634887872</created>
@@ -150,7 +152,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650636409515</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Main: Implement program logic">
+      <created>1650645757755</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650645757755</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Main: Implement program logic&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;&#10;Co-Authored-by: XiaoMengXinX &lt;xibaole2333@gmail.com&gt;">
+      <created>1650647049360</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1650647049360</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +190,9 @@
     <MESSAGE value="Main: create main.py and add logger" />
     <MESSAGE value="Proj: track IDE stuff" />
     <MESSAGE value="Main: add 2 commands" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main: add 2 commands" />
+    <MESSAGE value="Main: Implement program logic" />
+    <MESSAGE value="Main: Implement program logic&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;&#10;Co-Authored-by: XiaoMengXinX &lt;xibaole2333@gmail.com&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main: Implement program logic&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;&#10;Co-Authored-by: XiaoMengXinX &lt;xibaole2333@gmail.com&gt;" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="VgoProject">
@@ -182,6 +200,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Telegram_QuoteReply_Bot$Run_main__.coverage" NAME="Run main() 覆盖结果" MODIFIED="1650636858363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Telegram_QuoteReply_Bot$main.coverage" NAME="main 覆盖结果" MODIFIED="1650645419444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Telegram_QuoteReply_Bot$main.coverage" NAME="main 覆盖结果" MODIFIED="1650646638002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74b3e5b5-fcba-491c-aaa7-ec7b3b288341" name="变更" comment="Main: Implement program logic&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;&#10;Co-Authored-by: XiaoMengXinX &lt;xibaole2333@gmail.com&gt;">
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Telegram_QuoteReply_Bot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Telegram_QuoteReply_Bot.iml" afterDir="false" />
+    <list default="true" id="74b3e5b5-fcba-491c-aaa7-ec7b3b288341" name="变更" comment="Proj: Add requirements.txt for the script&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;&#10;#Co-Authored-by: XiaoMengXinX &lt;xibaole2333@gmail.com&gt;">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650647049360</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Proj: Add requirements.txt for the script&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;&#10;#Co-Authored-by: XiaoMengXinX &lt;xibaole2333@gmail.com&gt;">
+      <created>1650647330732</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1650647330732</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +197,8 @@
     <MESSAGE value="Main: add 2 commands" />
     <MESSAGE value="Main: Implement program logic" />
     <MESSAGE value="Main: Implement program logic&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;&#10;Co-Authored-by: XiaoMengXinX &lt;xibaole2333@gmail.com&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main: Implement program logic&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;&#10;Co-Authored-by: XiaoMengXinX &lt;xibaole2333@gmail.com&gt;" />
+    <MESSAGE value="Proj: Add requirements.txt for the script&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;&#10;#Co-Authored-by: XiaoMengXinX &lt;xibaole2333@gmail.com&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Proj: Add requirements.txt for the script&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;&#10;#Co-Authored-by: XiaoMengXinX &lt;xibaole2333@gmail.com&gt;" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="VgoProject">

@@ -1,4 +1,7 @@
-import telegram, telegram.ext, logging
+import logging
+
+import telegram
+import telegram.ext
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO
@@ -6,43 +9,46 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
-"""
-def command_start(update: telegram.Update, context: telegram.ext.CallbackContext) -> None:
-    user = update.effective_user
-    logger.info(f'User {user.id} tapped \'/start\'')
-    update.message.reply_markdown_v2(
-        fr'Hello {user.mention_markdown_v2()}\!'
-    )
 
-
-def command_help(update: telegram.Update, context: telegram.ext.CallbackContext) -> None:
-    user = update.effective_user
-    logger.info(f'User {user.id} tapped \'/help\'')
-    update.message.reply_markdown_v2(
-        'qwq'
-    )
-"""
+def escape(self):
+    escape_chars = {'[': '\\[', '`': '\\`', '_': '\\_', '*': '\\*'}
+    return ''.join(escape_chars.get(c, c) for c in self)
 
 
 def reply_to_message(update: telegram.Update, context: telegram.ext.CallbackContext) -> None:
+    if (update.message.text.replace("/", "").isascii() and not update.message.text.startswith('/$')) \
+            or update.message.text.replace("/$", "") == '':
+        return
+    if update.message.reply_to_message is None:
+        reply_to = '自己'
+        reply_to_id = update.message.from_user.id
+    else:
+        reply_to = update.message.reply_to_message.from_user.full_name
+        reply_to_id = update.message.reply_to_message.from_user.id
+
     user = update.effective_user
     logger.info(f'User {user.id} replied to a message at Chat {update.message.chat_id}')
-    update.message.reply_markdown(
-        fr'[{user.full_name}](tg://user?id={user.id})  {update.message.text.replace("/", "")}了  [{update.message.reply_to_message.from_user.full_name}](tg://user?id={update.message.reply_to_message.from_user.id})'
-    )
+
+    keywords = update.message.text.replace("/", "").replace("$", "").split(' ', maxsplit=1)
+
+    if len(keywords) == 1:
+        update.message.reply_markdown(
+            fr'[{escape(user.full_name)}](tg://user?id={user.id})  {escape(keywords[0])}了  [{reply_to}](tg://user?id={reply_to_id})！'
+        )
+    else:
+        update.message.reply_markdown(
+            fr'[{escape(user.full_name)}](tg://user?id={user.id})  {escape(keywords[0])}  [{reply_to}](tg://user?id={reply_to_id})  {escape(keywords[1])}！'
+        )
 
 
 def main() -> None:
-    BotUpdater = telegram.ext.Updater("""Your BOT Token Here""")
-    dispatcher = BotUpdater.dispatcher
+    bot_updater = telegram.ext.Updater("""Your BOT Token Here!!1""")
+    dispatcher = bot_updater.dispatcher
 
-    # dispatcher.add_handler(telegram.ext.CommandHandler("start", command_start))
-    # dispatcher.add_handler(telegram.ext.CommandHandler("help", command_help))
     dispatcher.add_handler(telegram.ext.MessageHandler(telegram.ext.Filters.text, reply_to_message))
 
-    BotUpdater.start_polling()
-    BotUpdater.idle()
-
+    bot_updater.start_polling()
+    bot_updater.idle()
 
 if __name__ == "__main__":
     main()

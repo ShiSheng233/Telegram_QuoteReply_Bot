@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74b3e5b5-fcba-491c-aaa7-ec7b3b288341" name="变更" comment="Proj: Update CI Script&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="74b3e5b5-fcba-491c-aaa7-ec7b3b288341" name="变更" comment="Proj: Update README&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/docker_image_publish.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/docker_image_publish.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +118,7 @@
       <workItem from="1650648192412" duration="462000" />
       <workItem from="1650648707461" duration="17000" />
       <workItem from="1651400276695" duration="2175000" />
-      <workItem from="1651402828650" duration="844000" />
+      <workItem from="1651402828650" duration="1145000" />
     </task>
     <task id="LOCAL-00001" summary="Proj: add .gitignore file">
       <created>1650634887872</created>
@@ -242,7 +239,21 @@
       <option name="project" value="LOCAL" />
       <updated>1651403045422</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Proj: Update CI &amp; READMI &amp; IDE stuff&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;">
+      <created>1651403699976</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1651403699976</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Proj: Update README&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;">
+      <created>1651403887560</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1651403887560</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +300,9 @@
     <MESSAGE value="Proj: Update Docker Build CI&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;" />
     <MESSAGE value="Proj: Fix Spelling error&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;" />
     <MESSAGE value="Proj: Update CI Script&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Proj: Update CI Script&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;" />
+    <MESSAGE value="Proj: Update CI &amp; READMI &amp; IDE stuff&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;" />
+    <MESSAGE value="Proj: Update README&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Proj: Update README&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="VgoProject">

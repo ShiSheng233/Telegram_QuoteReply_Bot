@@ -25,5 +25,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: shisheng/telegram_quotereply_bot:CI_$(date +%s)
-          labels: shisheng/telegram_quotereply_bot
+          tags: shisheng/telegram_quotereply_bot:ci_latest

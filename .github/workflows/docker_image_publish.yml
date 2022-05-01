@@ -26,8 +26,8 @@ jobs:
           tags: shisheng/telegram_quotereply_bot:ci_latest
 
       - name: Build and push Docker image Again
-          uses: docker/build-push-action@v2
-          with:
-            context: .
-            push: true
-            tags: shisheng/telegram_quotereply_bot:$(date +%s)
+      - uses: docker/build-push-action@v2
+        with:
+          context: .
+          push: true
+          tags: shisheng/telegram_quotereply_bot:$(date +%s)

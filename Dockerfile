@@ -6,7 +6,7 @@ COPY requirements.txt .
 
 RUN pip3 install -r requirements.txt
 
-ENV BOT_TOKEN $BOT_TOKEN
+ENV BOT_TOKEN BOT_TOKEN
 
 COPY main.py .
 

@@ -1,5 +1,6 @@
 import logging
 import os
+
 import telegram
 import telegram.ext
 
@@ -17,7 +18,7 @@ def escape(self):
 
 def reply_to_message(update: telegram.Update, context: telegram.ext.CallbackContext) -> None:
     if (update.message.text.replace("/", "").isascii() and not update.message.text.startswith('/$')) \
-            or update.message.text.replace("/$", "") == '':
+            or not update.message.text.startswith('/') or update.message.text.replace("/$", "") == '':
         return
     if update.message.reply_to_message is None:
         reply_to = '自己'
@@ -33,11 +34,11 @@ def reply_to_message(update: telegram.Update, context: telegram.ext.CallbackCont
 
     if len(keywords) == 1:
         update.message.reply_markdown(
-            fr'[{escape(user.full_name)}](tg://user?id={user.id})  {escape(keywords[0])}了  [{reply_to}](tg://user?id={reply_to_id})！'
+            fr'[{escape(user.full_name)}](tg://user?id={user.id}) {escape(keywords[0])}了 [{reply_to}](tg://user?id={reply_to_id})！'
         )
     else:
         update.message.reply_markdown(
-            fr'[{escape(user.full_name)}](tg://user?id={user.id})  {escape(keywords[0])}  [{reply_to}](tg://user?id={reply_to_id})  {escape(keywords[1])}！'
+            fr'[{escape(user.full_name)}](tg://user?id={user.id}) {escape(keywords[0])} [{reply_to}](tg://user?id={reply_to_id}) {escape(keywords[1])}！'
         )
 
 
@@ -49,6 +50,7 @@ def main() -> None:
 
     bot_updater.start_polling()
     bot_updater.idle()
+
 
 if __name__ == "__main__":
     main()

@@ -11,7 +11,7 @@ We provide a sample bot at [@quote_reply_bot](https://t.me/quote_reply_bot).
 
 ### Python
 
-```bash
+```
 git clone https://github.com/ShiSheng233/Telegram_QuoteReply_Bot.git && cd Telegram_QuoteReply_Bot
 
 python3 main.py
@@ -20,7 +20,7 @@ python3 main.py
 ### Docker
 
 ```shell
-docker run -d --env BOT_TOKEN="YOUR TOKEN HERE" shisheng/telegram_quotereply_bot:ci_latest```
+docker run -d --env BOT_TOKEN="YOUR TOKEN HERE" shisheng/telegram_quotereply_bot:ci_latest
 ```
 
 ### Vercel

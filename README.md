@@ -10,7 +10,7 @@ and [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram
 ### Docker
 
 ```shell
-docker run -d shisheng233/telegram-quotereply-bot:ci_latest -e BOT_TOKEN= **Your Bot Token**
+docker run -d shisheng/telegram_quotereply_bot:ci_latest -e BOT_TOKEN= **Your Bot Token**
 ```
 
 ### Vercel

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74b3e5b5-fcba-491c-aaa7-ec7b3b288341" name="变更" comment="Proj: Add README.md&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;&#10;#Co-Authored-by: XiaoMengXinX &lt;xibaole2333@gmail.com&gt;">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+    <list default="true" id="74b3e5b5-fcba-491c-aaa7-ec7b3b288341" name="变更" comment="Proj: Update IDE stuff&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,18 +40,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Developement/Project/Telegram_QuoteReply_Bot/main.py&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "E:/Developement/Project/Telegram_QuoteReply_Bot/main.py",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.main">
     <configuration name="Run main()" type="PythonConfigurationType" factoryName="Python" singleton="false">
       <module name="Telegram_QuoteReply_Bot" />
@@ -115,7 +117,9 @@
       <option name="presentableId" value="Default" />
       <updated>1650634788801</updated>
       <workItem from="1650634792353" duration="9531000" />
-      <workItem from="1650648192412" duration="420000" />
+      <workItem from="1650648192412" duration="462000" />
+      <workItem from="1650648707461" duration="17000" />
+      <workItem from="1651400276695" duration="234000" />
     </task>
     <task id="LOCAL-00001" summary="Proj: add .gitignore file">
       <created>1650634887872</created>
@@ -180,7 +184,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650647439841</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Proj: Add Dockerfile&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;">
+      <created>1650648626861</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1650648626861</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Proj: Update IDE stuff&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;">
+      <created>1650648644305</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1650648644305</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +209,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -208,7 +238,9 @@
     <MESSAGE value="Main: Implement program logic&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;&#10;Co-Authored-by: XiaoMengXinX &lt;xibaole2333@gmail.com&gt;" />
     <MESSAGE value="Proj: Add requirements.txt for the script&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;&#10;#Co-Authored-by: XiaoMengXinX &lt;xibaole2333@gmail.com&gt;" />
     <MESSAGE value="Proj: Add README.md&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;&#10;#Co-Authored-by: XiaoMengXinX &lt;xibaole2333@gmail.com&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Proj: Add README.md&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;&#10;#Co-Authored-by: XiaoMengXinX &lt;xibaole2333@gmail.com&gt;" />
+    <MESSAGE value="Proj: Add Dockerfile&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;" />
+    <MESSAGE value="Proj: Update IDE stuff&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Proj: Update IDE stuff&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="VgoProject">
@@ -216,6 +248,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Telegram_QuoteReply_Bot$Run_main__.coverage" NAME="Run main() 覆盖结果" MODIFIED="1650636858363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Telegram_QuoteReply_Bot$main.coverage" NAME="main 覆盖结果" MODIFIED="1650646638002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Telegram_QuoteReply_Bot$main.coverage" NAME="main 覆盖结果" MODIFIED="1650648719358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

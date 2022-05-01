@@ -30,4 +30,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: shisheng/telegram_quotereply_bot:$(date +%s)
+          tags: shisheng/telegram_quotereply_bot:${{date +%s}}

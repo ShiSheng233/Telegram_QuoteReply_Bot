@@ -118,7 +118,7 @@
       <workItem from="1650648192412" duration="462000" />
       <workItem from="1650648707461" duration="17000" />
       <workItem from="1651400276695" duration="2175000" />
-      <workItem from="1651402828650" duration="1226000" />
+      <workItem from="1651402828650" duration="1258000" />
     </task>
     <task id="LOCAL-00001" summary="Proj: add .gitignore file">
       <created>1650634887872</created>
@@ -260,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651404003217</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Proj: Update CI Script&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;">
+      <created>1651404069261</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1651404069261</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

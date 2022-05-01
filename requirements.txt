@@ -1,1 +1,2 @@
-python-telegram-bot
+python-telegram-bot~=13.11
+cowpy==1.0.3

@@ -1,5 +1,5 @@
 import logging
-
+import os
 import telegram
 import telegram.ext
 
@@ -42,7 +42,7 @@ def reply_to_message(update: telegram.Update, context: telegram.ext.CallbackCont
 
 
 def main() -> None:
-    bot_updater = telegram.ext.Updater("""Your BOT Token Here!!1""")
+    bot_updater = telegram.ext.Updater(os.environ.get("BOT_TOKEN"))
     dispatcher = bot_updater.dispatcher
 
     dispatcher.add_handler(telegram.ext.MessageHandler(telegram.ext.Filters.text, reply_to_message))

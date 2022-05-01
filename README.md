@@ -2,6 +2,8 @@
 
 [![Docker Image CI](https://github.com/ShiSheng233/Telegram_QuoteReply_Bot/actions/workflows/docker_image_publish.yml/badge.svg?branch=master)](https://github.com/ShiSheng233/Telegram_QuoteReply_Bot/actions/workflows/docker_image_publish.yml)
 
+[![Docker Image CI Pull Request](https://github.com/ShiSheng233/Telegram_QuoteReply_Bot/actions/workflows/docker_image_pr_publish.yml/badge.svg)](https://github.com/ShiSheng233/Telegram_QuoteReply_Bot/actions/workflows/docker_image_pr_publish.yml)
+
 A simple bot powered by [Telegram API](https://core.telegram.org/bots/api)
 and [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot).
 

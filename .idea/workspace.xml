@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74b3e5b5-fcba-491c-aaa7-ec7b3b288341" name="变更" comment="Proj: Update CI Script&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;" />
+    <list default="true" id="74b3e5b5-fcba-491c-aaa7-ec7b3b288341" name="变更" comment="Proj: Update CI Script&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,6 +121,7 @@
       <workItem from="1651402828650" duration="1991000" />
       <workItem from="1651416213868" duration="982000" />
       <workItem from="1651419040406" duration="156000" />
+      <workItem from="1651419447654" duration="230000" />
     </task>
     <task id="LOCAL-00001" summary="Proj: add .gitignore file">
       <created>1650634887872</created>
@@ -302,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651419191116</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Proj: Update CI Script&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;">
+      <created>1651419458476</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1651419458476</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

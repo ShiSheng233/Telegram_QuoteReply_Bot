@@ -23,6 +23,15 @@ python3 main.py
 docker run -d --env BOT_TOKEN="YOUR TOKEN HERE" shisheng/telegram_quotereply_bot:ci_latest
 ```
 
+Pull `shisheng/telegram_quotereply_bot:ci_pr_[pull_request.number]` for specific pull request's version
+
 ### Vercel
 
+_Not very recommend_
+
 > By XiaoMengXinX
+
+1. Fork this repo and deploy to Vercel
+2. Add a environment variable named `BOT_TOKEN`
+3. Redeploy to make environment variables take effect
+4. Set webhook method by accessing <https://api.telegram.org/bot[YOUR_TELEGRAM_BOT_TOKEN_HERE]/setWebhook?url=https://[YOUR_VERCEL_PROJ_NAME].vercel.app/api/bot>

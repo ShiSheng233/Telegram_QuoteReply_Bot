@@ -7,6 +7,12 @@ and [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram
 
 ## Deploy
 
+### Python
+
+```shell
+python3 main.py
+```
+
 ### Docker
 
 ```shell

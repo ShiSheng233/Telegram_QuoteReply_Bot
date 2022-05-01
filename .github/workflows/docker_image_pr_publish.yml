@@ -23,4 +23,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: shisheng/telegram_quotereply_bot:ci_pr_${{ github.pull_request.number }}
+          tags: shisheng/telegram_quotereply_bot:ci_pr_${{ github.event.pull_request.number }}

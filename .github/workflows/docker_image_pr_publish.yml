@@ -1,4 +1,4 @@
-name: Docker Image CI
+name: Docker Image CI Pull Request
 
 on:
   pull_request:
@@ -23,4 +23,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: shisheng/telegram_quotereply_bot:ci_pr_latest
+          tags: shisheng/telegram_quotereply_bot:ci_pr_${{ github.pull_request.number }}

@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74b3e5b5-fcba-491c-aaa7-ec7b3b288341" name="变更" comment="Proj: Update CI Script&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/docker_image_pr_publish.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="74b3e5b5-fcba-491c-aaa7-ec7b3b288341" name="变更" comment="Proj: Update CI Script &amp; README&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,7 +117,7 @@
       <workItem from="1650648707461" duration="17000" />
       <workItem from="1651400276695" duration="2175000" />
       <workItem from="1651402828650" duration="1991000" />
-      <workItem from="1651416213868" duration="752000" />
+      <workItem from="1651416213868" duration="982000" />
     </task>
     <task id="LOCAL-00001" summary="Proj: add .gitignore file">
       <created>1650634887872</created>
@@ -291,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651404462927</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Proj: Update CI Script &amp; README&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;">
+      <created>1651416985706</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1651416985706</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,7 +343,8 @@
     <MESSAGE value="Proj: Update CI &amp; READMI &amp; IDE stuff&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;" />
     <MESSAGE value="Proj: Update README&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;" />
     <MESSAGE value="Proj: Update CI Script&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Proj: Update CI Script&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;" />
+    <MESSAGE value="Proj: Update CI Script &amp; README&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Proj: Update CI Script &amp; README&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="VgoProject">

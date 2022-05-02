@@ -1,8 +1,9 @@
-name: Docker Image CI Pull Request
+name: Docker Image Release CI
 
 on:
-  pull_request:
-    types: [ opened, reopened ]
+  workflow_dispatch:
+    branches:
+      - master
 
 jobs:
   push_to_registry:
@@ -11,8 +12,6 @@ jobs:
     steps:
       - name: Check out the repo
         uses: actions/checkout@v3
-        with:
-          ref: ${{ github.event.pull_request.head.sha }}
 
       - name: Log in to Docker Hub
         uses: docker/login-action@v1
@@ -25,4 +24,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: shisheng/telegram_quotereply_bot:ci_pr_${{ github.event.pull_request.number }}
+          tags: shisheng/telegram_quotereply_bot:latest

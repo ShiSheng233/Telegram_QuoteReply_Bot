@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74b3e5b5-fcba-491c-aaa7-ec7b3b288341" name="变更" comment="Proj: Update CI Script&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/docker_image_latest_publish.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/docker_image_pr_publish.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/docker_image_pr_publish.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/docker_image_publish.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/docker_image_publish.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,19 +40,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "go.import.settings.migrated": "true",
-    "last_opened_file_path": "E:/Developement/Project/Telegram_QuoteReply_Bot/.github/workflows",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Developement/Project/Telegram_QuoteReply_Bot/.github/workflows&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Developement\Project\Telegram_QuoteReply_Bot\.github\workflows" />
@@ -129,7 +129,8 @@
       <workItem from="1651416213868" duration="982000" />
       <workItem from="1651419040406" duration="156000" />
       <workItem from="1651419447654" duration="230000" />
-      <workItem from="1651455187236" duration="612000" />
+      <workItem from="1651455187236" duration="626000" />
+      <workItem from="1651455957030" duration="16000" />
     </task>
     <task id="LOCAL-00001" summary="Proj: add .gitignore file">
       <created>1650634887872</created>
@@ -320,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651419458476</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Proj: Update CI Script&#10;&#10;Signed-off-by: Shi_Sheng &lt;ohayou@shisheng.icu&gt;">
+      <created>1651455811788</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1651455811788</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

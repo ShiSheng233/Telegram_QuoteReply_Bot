@@ -1,8 +1,5 @@
 # Telegram QuoteReply Bot
-
-[![Docker Image CI](https://github.com/ShiSheng233/Telegram_QuoteReply_Bot/actions/workflows/docker_image_publish.yml/badge.svg?branch=master)](https://github.com/ShiSheng233/Telegram_QuoteReply_Bot/actions/workflows/docker_image_publish.yml)
-
-[![Docker Image CI Pull Request](https://github.com/ShiSheng233/Telegram_QuoteReply_Bot/actions/workflows/docker_image_pr_publish.yml/badge.svg)](https://github.com/ShiSheng233/Telegram_QuoteReply_Bot/actions/workflows/docker_image_pr_publish.yml)
+[![Docker Image Release CI](https://github.com/ShiSheng233/Telegram_QuoteReply_Bot/actions/workflows/docker_image_latest_publish.yml/badge.svg)](https://github.com/ShiSheng233/Telegram_QuoteReply_Bot/actions/workflows/docker_image_latest_publish.yml) [![Docker Image Push CI](https://github.com/ShiSheng233/Telegram_QuoteReply_Bot/actions/workflows/docker_image_publish.yml/badge.svg)](https://github.com/ShiSheng233/Telegram_QuoteReply_Bot/actions/workflows/docker_image_publish.yml) [![Docker Image Pull Request CI](https://github.com/ShiSheng233/Telegram_QuoteReply_Bot/actions/workflows/docker_image_pr_publish.yml/badge.svg)](https://github.com/ShiSheng233/Telegram_QuoteReply_Bot/actions/workflows/docker_image_pr_publish.yml)
 
 A simple bot powered by [Telegram API](https://core.telegram.org/bots/api)
 and [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot).
@@ -21,8 +18,10 @@ python3 main.py
 
 ### Docker
 
+<https://hub.docker.com/r/shisheng/telegram_quotereply_bot>
+
 ```shell
-docker run -d --env BOT_TOKEN="YOUR TOKEN HERE" shisheng/telegram_quotereply_bot:ci_latest
+docker run -d --env BOT_TOKEN="YOUR TOKEN HERE" shisheng/telegram_quotereply_bot
 ```
 
 Pull `shisheng/telegram_quotereply_bot:ci_pr_[pull_request.number]` for specific pull request's version

@@ -10,8 +10,10 @@ We provide a sample bot at [@quote_reply_bot](https://t.me/quote_reply_bot).
 
 ### Python
 
-```
-git clone https://github.com/ShiSheng233/Telegram_QuoteReply_Bot.git && cd Telegram_QuoteReply_Bot
+```bash
+git clone https://github.com/ShiSheng233/Telegram_QuoteReply_Bot.git
+
+cd Telegram_QuoteReply_Bot
 
 python3 main.py
 ```
@@ -20,9 +22,11 @@ python3 main.py
 
 <https://hub.docker.com/r/shisheng/telegram_quotereply_bot>
 
-```shell
-docker run -d --env BOT_TOKEN="YOUR TOKEN HERE" shisheng/telegram_quotereply_bot
+```bash
+docker run -d --env BOT_TOKEN="YOUR_TOKEN_HERE" shisheng/telegram_quotereply_bot
 ```
+
+Pull `shisheng/telegram_quotereply_bot:ci_latest` for latest push's version
 
 Pull `shisheng/telegram_quotereply_bot:ci_pr_[pull_request.number]` for specific pull request's version
 
@@ -35,4 +39,11 @@ _Not very recommend_
 1. Fork this repo and deploy to Vercel
 2. Add a environment variable named `BOT_TOKEN`
 3. Redeploy to make environment variables take effect
-4. Set webhook method by accessing <https://api.telegram.org/bot[YOUR_TELEGRAM_BOT_TOKEN_HERE]/setWebhook?url=https://[YOUR_VERCEL_PROJ_NAME].vercel.app/api/bot>
+4. Set webhook method by
+   accessing <https://api.telegram.org/bot[YOUR_TELEGRAM_BOT_TOKEN_HERE]/setWebhook?url=https://[YOUR_VERCEL_PROJ_NAME].vercel.app/api/bot>
+
+---
+
+Powered by ShiSheng with Love.
+
+GitHub: <https://github.com/ShiSheng233/Telegram_QuoteReply_Bot>

@@ -3,6 +3,7 @@ import os
 
 import telegram
 import telegram.ext
+from telegram.ext.dispatcher import run_async
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.DEBUG
@@ -15,7 +16,7 @@ def escape(self):
     escape_chars = {'[': '\\[', '`': '\\`', '_': '\\_', '*': '\\*'}
     return ''.join(escape_chars.get(c, c) for c in self)
 
-
+@run_async
 def reply_to_message(update: telegram.Update, context: telegram.ext.CallbackContext) -> None:
     if (update.message.text.replace("/", "").isascii() and not update.message.text.startswith('/$')) \
             or not update.message.text.startswith('/') or update.message.text.replace("/$", "") == '':

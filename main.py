@@ -30,7 +30,7 @@ def reply_to_message(update: telegram.Update, context: telegram.ext.CallbackCont
     user = update.effective_user
     logger.info(f'User {user.id} replied to a message at Chat {update.message.chat_id}')
 
-    keywords = update.message.text.replace("/", "").replace("$", "").replace("@quote_reply_bot","").split(' ', maxsplit=1)
+    keywords = update.message.text.replace("/", "").replace("$", "").split(' ', maxsplit=1)
 
     if len(keywords) == 1:
         update.message.reply_markdown(
